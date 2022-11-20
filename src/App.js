@@ -12,16 +12,28 @@ function App() {
 				</main>
 				<footer>
 					<div className="signature">
-						This project was coded by Elena Zorenko and is{" "}
+						This project was coded by
 						<a
-							href="https://github.com/"
+							href="https://www.linkedin.com/in/elena-zorenko-a6125024a/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Elena Zorenko
+						</a>
+						and is{" "}
+						<a
+							href="https://github.com/ZorenkoElena/weather-app-react.git"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
 							open-sourced on GitHub
 						</a>{" "}
 						and{" "}
-						<a href="https://" target="_blank" rel="noopener noreferrer">
+						<a
+							href="https://sparkling-horse-7db353.netlify.app"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
 							hosted on Netlify
 						</a>
 					</div>
