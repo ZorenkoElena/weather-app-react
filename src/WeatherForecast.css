@@ -1,0 +1,11 @@
+.WeatherForecast {
+	text-align: center;
+}
+
+.WeatherForecastDay {
+	text-align: center;
+}
+
+.WeatherForecastDay .Min {
+	color: #707579;
+}
