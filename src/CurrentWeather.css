@@ -1,28 +1,28 @@
-.currentWeather .city {
+.CurrentWeather .city {
 	color: #0e2c48;
 	font-size: 30px;
 }
 
-.currentWeather .minorFigures {
+.CurrentWeather .minorFigures {
 	color: #707579;
 	font-size: 14px;
 	line-height: 21px;
 }
 
-.currentWeather .majorFigures {
+.CurrentWeather .majorFigures {
 	color: #0e2c48;
 	font-size: 60px;
 	margin-bottom: 35px;
 }
 
-.currentWeather .units {
+.CurrentWeather .units {
 	font-size: 16px;
 	position: relative;
 	top: -30px;
 	left: -10px;
 }
 
-.currentWeather .values {
+.CurrentWeather .values {
 	color: #264e70;
 }
 

@@ -45,7 +45,7 @@ export default function Weather(props) {
 	if (weatherData.ready) {
 		return (
 			<div className="Weather">
-				<form className="Search-form" onSubmit={handleSubmit}>
+				<form className="search-form" onSubmit={handleSubmit}>
 					<div className="row">
 						<div className="col-6">
 							<input
@@ -79,5 +79,3 @@ export default function Weather(props) {
 		return "Loading...";
 	}
 }
-
-// https://api.openweathermap.org/data/2.5/weather?q=$odesa&appid=d74cc05cdf52565f559ffa4ab891cb08&units=metric

@@ -2,12 +2,11 @@ import React from "react";
 import FormatDay from "./FormatDay";
 import FormatTime from "./FormatTime";
 import WeatherIcon from "./WeatherIcon";
-import "bootstrap/dist/css/bootstrap.css";
 import "./CurrentWeather.css";
 
 export default function CurrentWeather(props) {
 	return (
-		<div className="currentWeather">
+		<div className="CurrentWeather">
 			<div className="row">
 				<div className="col-6">
 					<div className="city">{props.data.city}</div>
@@ -31,7 +30,7 @@ export default function CurrentWeather(props) {
 				</div>
 				<div className="col-6">
 					<div className="majorFigures">
-						<WeatherIcon code={props.data.icon} size="60" />
+						<WeatherIcon code={props.data.icon} size={60} />
 						<span className="temperature"> {props.data.temperature} </span>
 						<span className="units">°C</span>
 					</div>

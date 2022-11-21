@@ -23,7 +23,7 @@ export default function WeatherForecastDay(props) {
 				</div>
 				<div>
 					<span>{Math.round(props.data.temp.max)}° </span>
-					<span className="Min">{Math.round(props.data.temp.min)}°</span>
+					<span className="min">{Math.round(props.data.temp.min)}°</span>
 				</div>
 			</div>
 		</div>

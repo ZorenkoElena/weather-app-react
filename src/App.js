@@ -1,25 +1,24 @@
 import React from "react";
 import Weather from "./Weather";
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.css";
 
 function App() {
 	return (
 		<div className="App">
 			<div className="container">
 				<main>
-					<Weather defaultCity="Odesa" />
+					<Weather defaultCity="London" />
 				</main>
 				<footer>
 					<div className="signature">
-						This project was coded by
+						This project was coded by{" "}
 						<a
 							href="https://www.linkedin.com/in/elena-zorenko-a6125024a/"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
 							Elena Zorenko
-						</a>
+						</a>{" "}
 						and is{" "}
 						<a
 							href="https://github.com/ZorenkoElena/weather-app-react.git"
