@@ -1,33 +1,33 @@
 .CurrentWeather .city {
-	color: #0e2c48;
-	font-size: 30px;
+  color: #0e2c48;
+  font-size: 30px;
 }
 
 .CurrentWeather .minorFigures {
-	color: #707579;
-	font-size: 14px;
-	line-height: 21px;
+  color: #5a5e61;
+  font-size: 14px;
+  line-height: 21px;
 }
 
 .CurrentWeather .majorFigures {
-	color: #0e2c48;
-	font-size: 60px;
-	margin-bottom: 35px;
+  color: #0e2c48;
+  font-size: 60px;
+  margin-bottom: 35px;
 }
 
 .CurrentWeather .units {
-	font-size: 16px;
-	position: relative;
-	top: -30px;
-	left: -10px;
+  font-size: 16px;
+  position: relative;
+  top: -30px;
+  left: -10px;
 }
 
 .CurrentWeather .values {
-	color: #264e70;
+  color: #264e70;
 }
 
 .time {
-	color: #0e2c48;
-	font-size: 20px;
-	margin-bottom: 10px;
+  color: #0e2c48;
+  font-size: 20px;
+  margin-bottom: 10px;
 }

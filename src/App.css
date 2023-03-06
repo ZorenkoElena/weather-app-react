@@ -1,7 +1,15 @@
 .App .signature {
-	color: #707579;
-	max-width: 600px;
-	margin: 0 auto;
-	font-size: 12px;
-	text-align: center;
+  color: #0e2c48;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 12px;
+  text-align: center;
+}
+
+.App .signature a {
+  color: #0e2c48;
+}
+
+.App .signature a:hover {
+  color: #8d9296;
 }
